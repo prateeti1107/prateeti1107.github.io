@@ -2546,7 +2546,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
   padding: 30px;
   color: black;
   background-color: #124f67bd;
-  height: 700px;
+  height: auto;
   background: #0d647d;
   /* background: -webkit-linear-gradient(rgba(52, 73, 94, 0.8), rgba(52, 73, 94, 0.8)), url(http://timothy.expert/codepen-resources/computer.jpg) no-repeat center center fixed;
   background: linear-gradient(rgba(52, 73, 94, 0.8), rgba(52, 73, 94, 0.8)), url(http://timothy.expert/codepen-resources/computer.jpg) no-repeat center center fixed; */
@@ -2583,7 +2583,9 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 }
 
 .container .jumbotron {
-  border-radius: 6px
+  border-radius: 6px;
+  display: inline-block;
+  position:relative;
 }
 
 .jumbotron .container {
